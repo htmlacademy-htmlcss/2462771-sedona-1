@@ -13,8 +13,8 @@
        url("robotobold.woff") format("woff");
 }
 *,
-*::before,
-*::after {
+*::after,
+*::before{
   box-sizing: border-box;
 }
 img {
@@ -25,11 +25,17 @@ html {
     height: 100%;
   }
 body {
- margin: 0;
+  margin-bottom: 0;
  background-color: #E5E5E5;
  font-family:"Roboto", "Arial", sans-serif; ;
 }
-
+.page-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
 .navigation {
   width: 1200px;
    height: 64px;
@@ -38,7 +44,7 @@ body {
       background: white;
        justify-content: space-between;
         align-items: flex-start;
-         display: inline-flex;
+         display: inline-flex
 }
 
 .navigation-list {
@@ -136,57 +142,71 @@ body {
   min-height: 20px;
   width: 20px;
 }
-.main-image {
-  width: 1200px;
-  height: 485px;
-
-  color: #FFFFFF ;
-    position: relative;
-     flex-direction: column;
-      justify-content: flex-start;
-       align-items: flex-start;
-        display: inline-flex;
-        background-image: url("../images/divider.svg")url("..images/sedona.jpg");
-        background-repeat:no-repeat, no-repeat;
+.main {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
 }
+.main-image {
 
-.welcome {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+
+
+}
+.wel {
   width: 458px;
   height: 352px;
-
+  padding: 371px 51px 371px 82px;
+   flex-direction: column;
+  justify-content: center;
+   align-items: center;
+   margin-bottom: 0;
+   position: absolute;
+   display: flex;
 
 }
-.logo-plase {
-  width: 256px;
-   height: 28px;
-    left: 101px;
-     top: 56px;
-     background-image:url("..images/gorgeous.svg");
-     background-repeat: no-repeat;
-      position: absolute;
-       background: #766458;
+.image {
+
+  color: #ffffff;
+  background-color: #3498db;
+  background-image:url("images/sedona.jpg"),url("images/divider.svg");
+  background-repeat: no-repeat,no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-size: auto, cover;
+  display: block;
+
+  margin-bottom: 0;
+
 }
-.divider{
-width: 1200px;
-height: 57px;
-color: #FFFFFF ;
-justify-content: center;
-align-items: center;
-display: inline-flex;
+.divider {
+  width: 1200px;
+  height: 57px;
+  justify-content: center;
+   align-items: center;
+   color: #ffffff;
+
+   display: flex;
+
 
 }
 .page-section {
   width: 1200px;
-  height: 261px;
-  padding-top: 69px;
-  padding-bottom: 69px;
-  background: white;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-  display: inline-flex;
-
+   height: 246px;
+    padding-top: 64px;
+     padding-bottom: 64px;
+     background: #FFFFFF;
+      flex-direction: column;
+       justify-content: center;
+        align-items: center;
+         gap: 20px;
+          display: flex;
 
 }
 .page-title {
@@ -208,13 +228,12 @@ display: inline-flex;
    word-wrap: break-word;
 }
 .advantages {
-  width: 1200px;
-   height: 1155px;
+
     flex-direction: column;
-    justify-content: flex-start;
-     align-items: flex-start;
-      display: inline-flex;
-      gap: 10px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin-bottom: 0;
 }
 .advantages1 {
   width: 1200px;
@@ -270,10 +289,11 @@ display: inline-flex;
 .foto-town {
    width: 800px;
    height: 384px;
-  align-self: stretch;
-  background-image:url("..images/foto-town.jpg");
+background-size: cover;
+  background-image: url("..images/foto-town.jpg");
   background-repeat: no-repeat;
-
+  background-position: right bottom;
+  display: block;
 }
 .advantages2 {
   width: 1200px;
@@ -367,6 +387,7 @@ display: inline-flex;
    background-image:url("..images/Bridge-devil.jpg");
    background-repeat: no-repeat;
    height: 385px;
+   display: block;
 }
 .attractions-description {
   width: 400px;
@@ -418,18 +439,20 @@ display: inline-flex;
         line-height: 21px;
          word-wrap: break-word;
 }
+
 .comfort-service {
   width: 1200px;
-   height: 261px;
-    padding-top: 69px;
-     padding-bottom: 69px;
-      background: white;
-       flex-direction: column;
-        justify-content: center;
-         align-items: center;
-          gap: 25px; display: inline-flex;
+   height: 246px;
+    padding-top: 64px;
+     padding-bottom: 64px;
+     background: #FFFFFF;
+     flex-direction: column;
+      justify-content: center;
+       align-items: center;
 
+         display: flex;
 }
+
 .comfort-title {
   width: 505px;
   text-align: center;
@@ -451,11 +474,10 @@ display: inline-flex;
   word-wrap: break-word;
 }
 .services {
-  width: 1200px;
-   height: 385px;
-    justify-content: flex-start;
-     align-items: flex-start;
-      display: inline-flex;
+
+    justify-content: center;
+     align-items: center;
+      display: flex;
 }
 .services-item-house {
   width: 400px;
@@ -524,28 +546,39 @@ display: inline-flex;
          line-height: 28px;
           word-wrap: break-word;
 }
+
 .search-hotel {
-  width: 1200px;
-   height: 406px;
-    padding-left: 304px;
-     padding-right: 304px;
-     padding-top: 96px;
-      padding-bottom: 96px;
+width: 1200px;
+height: 406px;
+padding-left: 304px;
+padding-right: 304px;
+padding-top:96px ;
+padding-bottom:96px ;
+
        background: white;
         flex-direction: column;
-         justify-content: flex-start;
-          align-items: flex-start;
-           gap: 10px;
-            display: inline-flex;
+         justify-content: center;
+          align-items: center;
+
+            display: flex;
+}
+.search-hotel_ti {
+  width: 592px;
+  height: 214px;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+   display: flex;
 }
 .search-hotel_tit {
   width: 592px;
-   height: 214px;
+  height: 108px;
+
     flex-direction: column;
-     justify-content: flex-start;
+     justify-content: center;
       align-items: center;
        gap: 54px;
-        display: inline-flex;
+        display:-flex;
 }
 .search-hotel_title {
   text-align: center;
@@ -566,6 +599,14 @@ display: inline-flex;
        font-weight: 400;
         line-height: 26px;
          word-wrap: break-word;
+}
+.search-hotel_butt {
+  width: 592px;
+  height: 214px;
+  flex-direction: column;
+     justify-content: center;
+      align-items: center;
+        display:-flex;
 }
 .search-hotel_button {
   width: 376px;
@@ -592,26 +633,26 @@ display: inline-flex;
          word-wrap: break-word;
 }
 .Subscribe {
-  width: 1200px;
-   height: 415px;
-  background-image: url("..images/subscribe footer.jpg");
+  background-color: #3498db;
+  background-image:url("..images/subscribe footer.jpg");
   background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-.Subscribe img {
-  object-fit: fill;
-  width: 100%;
-   height: 100%;
-}
+
 .Subscribe-search {
  width: 684px;
   height: 214px;
-  padding-top: 258px;
-  padding-bottom: 56px;
+  padding: 258px 98px 258px 94px;
+
    flex-direction: column;
-   justify-content: flex-start;
+   justify-content: center;
     align-items: center;
-     gap: 54px;
-     display:inline-flex;
+
+     position: absolute;
+     display:flex;
 }
 .Subscribe-subscription {
   width: 404px;
@@ -626,19 +667,33 @@ display: inline-flex;
 }
 .search-texts {
   width: 684px;
-  height: 215px; flex-direction: column;
-   justify-content: flex-start;
+  height: 215px;
+  color: white;
+   flex-direction: column;
+   justify-content: center;
     align-items: center;
-    gap: 54px; display: inline-flex;
+    gap: 54px;
+     display:flex;
+}
+.page-foo {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .page-footer {
   width: 1200px;
-  height: 120px;
- background: white;
-  justify-content: center;
-  align-items: center;
-  display: inline-flex;
+   height: 120px;
+    padding-top: 40px;
+     padding-bottom: 30px;
+      padding-left: 70px;
+       padding-right: 70px;
+        background: white;
+         justify-content: center;
+          align-items: center;
+           display: inline-flex;
 }
+
 .page-footer_colomn {
    width: 1060px;
    height: 50px;
@@ -649,7 +704,7 @@ display: inline-flex;
    background: white;
    justify-content: center;
    align-items: center;
-   display: inline-flex;
+   display: flex;
 
 
 }
