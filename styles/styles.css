@@ -35,7 +35,15 @@ body {
   width: 1200px;
 
 }
-
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
 
 /* header */
 .page-header {
@@ -80,6 +88,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .navigation-link {
@@ -119,16 +128,14 @@ body {
 .navigation-user-list {
   height: 64px;
   display:flex;
-  width: 88px;
 
-
-  list-style-type: none;
-  margin: 0;
+padding-left: 181px;
 
 }
 .navigation-user-item {
   height: 64px;
   display: block;
+
 }
 
 .navigation-user-button-search {
@@ -326,7 +333,7 @@ padding-right: 8px;
   text-align: center;
   color: #333333;
   font-size: 22px;
-  font-family: "PT Sans";
+  font-family: "PT Sans, Arial, sans-serif";
   font-weight: 400;
   line-height: 26px;
    word-wrap: break-word;
@@ -373,7 +380,7 @@ padding-right: 8px;
   text-align: center;
   color: white;
   font-size: 24px;
-  font-family: "PT Sans";
+  font-family: "PT Sans, Arial, sans-serif";
   font-weight: 700;
   text-transform: uppercase;
   line-height: 28px;
@@ -384,7 +391,7 @@ padding-right: 8px;
   content: "";
   width: 60px;
   height: 2px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   margin-bottom: 30px;
   display: block;
   position: absolute;
@@ -414,8 +421,8 @@ padding-right: 8px;
   display: block;
 }
 .advantages2 {
-
-  height: 385px;
+width: 1200px;
+ height: auto;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
@@ -564,7 +571,7 @@ padding-right: 8px;
   content: "";
   width: 60px;
   height: 2px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   margin-bottom: 30px;
   display: block;
   position: absolute;
@@ -1173,8 +1180,8 @@ background: white;
 /* catalog */
 .catalog {
 
-  height: 1235px;
-  padding:50px 60px 70px 70px;
+
+  padding:53px 60px 39px 70px;
   background: white;
   flex-direction: column;
   justify-content: flex-start;
@@ -1297,13 +1304,14 @@ background: white;
 /* catalog2 */
 
 .catalog2 {
-  width: 1069px;
+  width: 1064px;
 
   justify-content: flex-start;
   align-items: flex-start;
   display:flex;
   gap: 20px;
   flex-direction: column;
+ margin: 0 auto;
 }
 .product-cards {
   display: grid;
@@ -1420,7 +1428,7 @@ margin-bottom: 14px;
   background-color: #F2F2F2;
   color: #333333;
   text-transform: uppercase;
-  padding: 15px 22px 0 17px;
+  padding: 4px 22px 11px 17px;
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
@@ -1430,7 +1438,7 @@ margin-bottom: 14px;
 /* SUBSCRIBE */
 .subscribe {
 width: 1200px;
-  height: 415px;
+height: 415px;
   padding-top: 96px;
   padding-bottom: 104px;
   padding-left: 258px;
@@ -1446,9 +1454,8 @@ width: 1200px;
 
 .subscribe2 {
 
-  height: 416px;
-  padding-top: 97px;
-  padding-bottom: 239px;
+  padding-top: 140px;
+  padding-bottom: 103px;
   padding-left: 258px;
   padding-right: 258px;
   background: white;
@@ -1523,7 +1530,7 @@ width: 1200px;
 
 .pagination {
   width: 1060px;
-  height: 60px;
+  height: 95px;
   justify-content: flex-start;
   align-items: center;
   display: flex;
