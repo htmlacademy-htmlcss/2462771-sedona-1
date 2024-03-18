@@ -157,7 +157,7 @@ body {
   min-width: 44px;
   min-height: 64px;
   display: block;
-  padding: 22px 26px;
+  padding: 21px 26px;
   box-sizing: border-box;
   background: url("../images/search.svg") no-repeat center center;
   position: relative;
@@ -236,8 +236,6 @@ body {
   transform: translate(40%, -55%);
 
 }
-
-
 /* main */
 .main {
   flex-direction: column;
@@ -318,7 +316,7 @@ body {
   padding-bottom: 62px;
   background: #FFFFFF;
   padding-left:9px;
-padding-right: 8px;
+  padding-right: 8px;
   flex-direction: column;
   align-items: center;
   display: flex;
@@ -401,8 +399,6 @@ padding-right: 8px;
   position: absolute;
   top:86px;
   left:57px;
-
-
 }
 .advantages-discrip {
   width: 230px;
@@ -582,7 +578,6 @@ width: 1200px;
   top:86px;
   left:57px;
 
-
 }
 
 .attractions-text {
@@ -741,8 +736,6 @@ background: white;
 
 }
 .button {
-
-
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 8px;
@@ -1183,8 +1176,6 @@ background: white;
 }
 /* catalog */
 .catalog {
-
-
   padding:53px 60px 39px 70px;
   background: white;
   flex-direction: column;
@@ -1375,9 +1366,6 @@ margin-bottom: 14px;
   line-height: 21px;
   color: #333333;
   text-align: left;
-
-
-
 }
 
 .product-cards-text:nth-child(2) {
@@ -1441,23 +1429,20 @@ margin-bottom: 14px;
 
 /* SUBSCRIBE */
 .subscribe {
-width: 1200px;
-height: 415px;
+  width: 1200px;
+  height: 415px;
   padding-top: 96px;
   padding-bottom: 104px;
   padding-left: 258px;
   padding-right: 258px;
     }
 
-    .subscribe-main {
-    background: #5387b4 url("../images/subscribe-footer.jpg") no-repeat center center;
-    background-size: cover;
+.subscribe-main {
+  background: #5387b4 url("../images/subscribe-footer.jpg") no-repeat center center;
+  background-size: cover;
 
 }
-
-
 .subscribe2 {
-
   padding-top: 140px;
   padding-bottom: 103px;
   padding-left: 258px;
@@ -1538,8 +1523,6 @@ height: 415px;
   justify-content: flex-start;
   align-items: center;
   display: flex;
-
-
 }
 
 .pagination-link,
