@@ -85,7 +85,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 64px;
+  height: auto;
 
 }
 
@@ -128,7 +128,7 @@ body {
   display: flex;
   width: 234px;
   justify-content: flex-end;
-
+  margin: 0;
 
 }
 .navigation-user-item {
@@ -311,14 +311,15 @@ margin: 0 -13px -40px -3px;
 .page-section {
 
 
-  padding-top:71px;
-  padding-bottom: 70px;
+  padding-top:58px;
+  padding-bottom: 68px;
   background: #FFFFFF;
-  padding-left:13px;
-  padding-right: 10px;
+  padding-left:16px;
+  padding-right:16px;
   flex-direction: column;
   align-items: center;
   display: flex;
+  margin: 12px -2px 1px -2px;
 
 }
 .page-title {
@@ -360,7 +361,7 @@ margin: 0 -13px -40px -3px;
 
 
   padding-left: 75px;
-  padding-right: 81px;
+  padding-right: 79px;
   padding-top:78px;
   padding-bottom: 96px;
   background: #82B3D3;
@@ -408,7 +409,7 @@ margin: 0 -13px -40px -3px;
   font-weight: 400;
   line-height: 21px;
   word-wrap: break-word;
-  margin: 7px;
+  margin: 9px -4px 4px 1px;
 }
 .foto-town {
   width: 800px;
@@ -426,6 +427,7 @@ margin: 0 -13px -40px -3px;
   align-items: flex-start;
   display: flex;
   margin: auto;
+  flex-wrap: wrap;
 }
 .advantages-small::after{
   content: "";
@@ -510,7 +512,7 @@ margin: 0 -13px -40px -3px;
   font-weight: 400;
   line-height: 21px;
   word-wrap: break-word;
-  margin: 7px ;
+  margin: 10px 2px 4px 4px;
 
 }
 .advantages3 {
@@ -536,7 +538,7 @@ margin: 0 -13px -40px -3px;
 
   padding-left: 78px;
   padding-right: 76px;
-  padding-top: 77px;
+  padding-top: 79px;
   padding-bottom: 95px;
   background: #82B3D3;
   flex-direction: column;
@@ -636,6 +638,7 @@ margin: 0 -13px -40px -3px;
   align-items: center;
   display:flex;
   margin-bottom: 5px;
+  flex-wrap: wrap;
 }
 .services-item {
   width: 400px;
@@ -713,8 +716,8 @@ margin: 0 -13px -40px -3px;
 
 
 padding-left: 301px;
-padding-right: 304px;
-padding-top:86px ;
+padding-right: 299px;
+padding-top:85px ;
 padding-bottom:95px ;
 background: white;
 
@@ -1233,7 +1236,7 @@ background: white;
   appearance: none;
 
   outline: none;
-  background: #ffffff url("../images/chek.svg") no-repeat right 18px center;
+  background: #ffffff url("../images/chec.svg") no-repeat right 18px center;
   cursor: pointer;
 }
 
@@ -1426,11 +1429,11 @@ background: white;
 
 .product-cards-rating {
 
-  margin: 5px;
+  margin: 1px;
   background-color: #F2F2F2;
   color: #333333;
   text-transform: uppercase;
-  padding:12px 18px 3px 15px;
+  padding:16px 22px 8px 19px;
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
