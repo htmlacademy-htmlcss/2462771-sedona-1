@@ -437,7 +437,7 @@ margin: 0 -13px -40px -3px;
   margin-bottom: 30px;
   display: block;
   position: absolute;
-  top:86px;
+  top:87px;
   left:27px;
 
 }
@@ -634,7 +634,7 @@ margin: 0 -13px -40px -3px;
 /*services  */
 .services {
 
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   display:flex;
   margin-bottom: 5px;
@@ -642,10 +642,10 @@ margin: 0 -13px -40px -3px;
 }
 .services-item {
   width: 400px;
-  padding-left: 114px;
-  padding-right: 115px;
-  padding-top: 78px;
-  padding-bottom: 68px;
+  padding-left: 80px;
+  padding-right: 82px;
+  padding-top: 79px;
+  padding-bottom: 67px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -683,14 +683,14 @@ margin: 0 -13px -40px -3px;
 
   text-align: center;
   color: #333333;
-  font-size: 17px;
+  font-size: 18px;
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   line-height: 21px;
   word-wrap: break-word;
   padding-top: 22px;
-  margin-left: -29px;
-  margin-right: -16px;
+  margin-left: -26px;
+  margin-right: -29px;
 }
 
 
@@ -715,10 +715,10 @@ margin: 0 -13px -40px -3px;
 .search {
 
 
-padding-left: 301px;
-padding-right: 299px;
-padding-top:85px ;
-padding-bottom:95px ;
+padding-left: 289px;
+padding-right: 292px;
+padding-top:84px ;
+padding-bottom:94px ;
 background: white;
 
 }
@@ -1515,7 +1515,7 @@ background: white;
 
     display: flex;
     gap: 8px;
-   margin: 58px 3px 25px -2px;
+   margin: 56px 3px 25px -2px;
   }
 
 
