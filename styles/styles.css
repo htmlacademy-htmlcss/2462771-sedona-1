@@ -397,8 +397,9 @@ margin: 0 -13px -40px -3px;
   margin-bottom: 30px;
   display: block;
   position: absolute;
-  top:86px;
-  left:96px;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 87px;
 }
 .advantages-discrip {
   width: 230px;
@@ -437,8 +438,9 @@ margin: 0 -13px -40px -3px;
   margin-bottom: 30px;
   display: block;
   position: absolute;
-  top:87px;
-  left:27px;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 85px;
 
 }
 
@@ -446,7 +448,7 @@ margin: 0 -13px -40px -3px;
   width: 400px;
   padding-left: 78px;
   padding-right: 77px;
-  padding-top: 88px;
+  padding-top: 90px;
   padding-bottom: 105px;
   background: rgba(131, 179, 211, 0.12);
   flex-direction: column;
@@ -472,7 +474,7 @@ margin: 0 -13px -40px -3px;
   width: 400px;
   padding-left: 88px;
   padding-right: 88px;
-  padding-top: 88px;
+  padding-top: 89px;
   padding-bottom: 106px;
   background: rgba(131, 179, 211, 0.12);
   flex-direction: column;
@@ -512,7 +514,7 @@ margin: 0 -13px -40px -3px;
   font-weight: 400;
   line-height: 21px;
   word-wrap: break-word;
-  margin: 10px 2px 4px 4px;
+  margin: 8px 2px 5px 3px;
 
 }
 .advantages3 {
@@ -546,7 +548,7 @@ margin: 0 -13px -40px -3px;
   align-items: center;
   gap: 10px;
   display:flex ;
-  margin-bottom: 5px;
+
 
 }
 .attractions-descript {
@@ -595,9 +597,7 @@ margin: 0 -13px -40px -3px;
 }
 /* comfort */
 .comfort-service {
-
-
-  padding-top: 35px;
+  padding-top: 40px;
   padding-bottom: 48px;
   padding-left: 27px;
   padding-right: 27px;
@@ -637,7 +637,7 @@ margin: 0 -13px -40px -3px;
   justify-content: start;
   align-items: center;
   display:flex;
-  margin-bottom: 5px;
+
   flex-wrap: wrap;
 }
 .services-item {
@@ -717,7 +717,7 @@ margin: 0 -13px -40px -3px;
 
 padding-left: 289px;
 padding-right: 292px;
-padding-top:84px ;
+padding-top:90px ;
 padding-bottom:94px ;
 background: white;
 
@@ -966,10 +966,10 @@ background: white;
 
 }
 
-.filters-group-infrastructure,
-.filters-group-housing {
 
-}
+
+
+
 
 .filters-group-title {
   font-size: 20px;
@@ -1699,7 +1699,7 @@ background: white;
 
 }
 .modal-container-close {
-  display:none ;
+  display:none;
 }
 
 .modal {
@@ -1886,10 +1886,6 @@ background: white;
   border-radius: 4px;
 }
 
-.modal-form-button:focus {
-  outline: ;
-}
-
 .modal-form .button {
   grid-column: 1 / -1;
   padding: 16px 26px;
@@ -1929,8 +1925,8 @@ background: white;
   font-size: 16px;
   line-height: 20px;
   transform: translate(-50%, 15px);
-  margin-top: 21px;
-  left:11px;
+  margin-top: 25px;
+  left:20px;
 }
 
 .tooltip-text::before {
