@@ -359,10 +359,10 @@ margin: 0 -13px -40px -3px;
 
 .advantages-item {
 
-
+  max-width: 400px;
   padding-left: 75px;
   padding-right: 79px;
-  padding-top:78px;
+  padding-top:79px;
   padding-bottom: 96px;
   background: #82B3D3;
   gap: 10px;
@@ -388,6 +388,7 @@ margin: 0 -13px -40px -3px;
   line-height: 28px;
   word-wrap: break-word;
   position: relative;
+
 }
 .advantages-town::after {
   content: "";
@@ -399,7 +400,7 @@ margin: 0 -13px -40px -3px;
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
-  top: 87px;
+  top: 84px;
 }
 .advantages-discrip {
   width: 230px;
@@ -414,7 +415,7 @@ margin: 0 -13px -40px -3px;
 }
 .foto-town {
   width: 800px;
-  height: 384px;
+  height: 385px;
   background-size: cover;
   background-image: url("..images/foto-town.jpg");
   background-repeat: no-repeat;
@@ -789,7 +790,6 @@ background: white;
 
 .footer-socials-list {
   width: 142px;
-  height: 40px;
   justify-content: center;
   align-items: center;
   display: flex;
