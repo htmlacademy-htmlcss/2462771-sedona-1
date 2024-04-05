@@ -781,7 +781,7 @@ background: white;
 }
 /* FOOTER */
 .page-footer {
-  padding: 45px 70px 35px;
+  padding: 44px 69px 43px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -789,11 +789,12 @@ background: white;
 }
 
 .footer-socials-list {
-  width: 142px;
+
   justify-content: center;
   align-items: center;
   display: flex;
   list-style-type: none;
+
 }
 
 .footer-socials-link {
